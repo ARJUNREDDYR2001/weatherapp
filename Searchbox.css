@@ -1,0 +1,62 @@
+.Searchbox{
+   text-align: center;
+   margin-bottom: 25px;
+}
+/* Searchbox.css */
+
+.Searchbox {
+   text-align: center;
+   margin-top: 20px;
+ }
+ 
+ .Searchbox form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .Searchbox .error-message {
+   color: red;
+ }
+
+ 
+ .Searchbox label {
+   font-weight: bold; /* Make labels bold */
+ }
+ /* infobox.css */
+ 
+ .InfoBox {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+ }
+ 
+ .InfoBox .cardContainer {
+   display: flex;
+   justify-content: center;
+ }
+ 
+ .InfoBox .cardContainer .card {
+   width: 300px;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+ 
+ /* App.css */
+ 
+ body {
+   font-family: Arial, sans-serif;
+   background-color: #f0f0f0;
+ }
+ 
+ .container {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px;
+ }
+ 
+ h2 {
+   text-align: center;
+ }
+ 
+ 
